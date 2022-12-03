@@ -1,0 +1,156 @@
+*{
+  letter-spacing: 3px;
+  font-family: serif;
+}
+*::selection{
+  background: rgb(230, 230, 230);
+}
+
+input{
+  height: 50px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(28, 28, 163);
+  font-weight: 700;
+  font-size: 25px;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+.img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.inactive{
+  display: none;
+}
+.links{
+  background: rgb(245, 245, 245);
+  transform: translateX(0px);
+  animation: bom 1s;
+}
+.log-out{
+  height: 40px;
+  font-size: 23px;
+}
+.log-out:hover{
+  background: rgb(247, 247, 247);
+}
+.error-404{
+  font-size: 20px;
+}
+:root{
+  overflow-x:hidden;
+}
+.imgs{
+  width: 100%;
+}
+.distor{
+  filter: blur(4px);
+}
+.not{
+  position: absolute;
+  z-index: 5;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 5px 46px 18px rgba(0,0,0,0.75);
+  border-radius: 40px;
+  width: 95%;
+  height: 45px;
+  font-size: 26px;
+  margin-top: 100px;
+}
+.img-contain{
+  background: rgb(233, 233, 233);
+}
+.text{
+  height: 100px;
+}
+.text-contain{
+  padding: 25px;
+}
+.text-22{
+  width: 150px;
+  margin: auto;
+}
+.message-contain{
+  padding: 10px;
+  border-radius: 6%;
+  outline: rgb(0, 0, 0) solid 0.5px;
+  margin: 2px;
+  overflow-x: hidden;
+
+}
+.name{
+  font-size: 15px;
+  font-weight: 600;
+}
+.bot2{
+  height: 50px;
+  width: 100px;
+  background: rgb(255, 137, 137);
+  text-shadow: 0px 0px 0px rgba(0,0,0,1);
+  color: rgba(119, 94, 94, 0);
+}
+.regis{
+  padding: 30px;
+}
+.bot{
+  margin: auto;
+}
+.bot2:hover{
+  background: rgb(255, 182, 182);
+}
+.fo{
+  background: rgb(233, 233, 233);
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+}
+
+@media screen and (min-width: 1000px){
+  .flex{
+    display: flex;
+    padding: 30px;
+  }
+  .img-contain{
+    padding: 40px;
+  }
+  .imgs{
+    width: 600px;
+  }
+  .not{
+    width: 43%;
+    margin-top: 12%;
+  }
+  .message-contain{
+    border-radius: 1%;
+    margin: 40px;
+  }
+  .bot2{
+    width: 50px;
+    position: absolute;
+    margin-left: -49%;
+    margin-top: -50px;
+    
+  }
+  .name{
+    font-size: 25px;
+  }
+  .pepe{
+    padding: 3px;
+  }
+}
+
+
+
+@keyframes bom{
+  0%{
+    transform: translateX(-500px);
+  }
+}
